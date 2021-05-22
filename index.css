@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+
+*{
+  box-sizing: border-box;   
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 0;
+    min-height: 555px;
+}
+
+.container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toast{
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
